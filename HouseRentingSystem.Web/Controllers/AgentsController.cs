@@ -33,6 +33,7 @@ namespace HouseRentingSystem.Web.Controllers
 
         [Authorize]
         [HttpPost]
+        //add some comment for testing
         public IActionResult Become(BecomeAgentFormModel model)
         {
             var userId = this.User.Id();
