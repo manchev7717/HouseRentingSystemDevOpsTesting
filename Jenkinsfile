@@ -4,7 +4,7 @@ pipeline {
         stages {
             stage('Build App') {
                 steps {
-                   bat 'npm install'
+                   bat 'dotnet build'
                 }
             }
             //trigger testing
